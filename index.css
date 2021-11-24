@@ -112,7 +112,7 @@ input.transparent-input {
 
 .footer1 {
   background-image: url(/images/image4.png);
-  height: 300px;
+  height: 400px;
   width: 100vw;
 }
 
@@ -120,4 +120,24 @@ input.transparent-input {
   background-color: rgb(0, 0, 0, 0.9);
   height: 80px;
   width: 100vw;
+}
+.fsec1{
+background-color: red;
+width: 30%;
+height: 300px;
+}
+.fsec2{
+background-color: blue;
+width: 20%;
+height: 300px;
+}
+.fsec5{
+  border: 2px solid white;
+  height: 50px;
+  width: 100%;
+}
+.fsec6{
+  border:2px solid white;
+  height: 50px;
+  width: 100%;
 }
