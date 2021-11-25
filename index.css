@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lora', serif;
 }
 
 body {
@@ -95,13 +97,13 @@ input.transparent-input {
 
 .section1a {
     /* height: 550px; */
-    width: 40%;
+    width: 50%;
 }
 
 .section2a {
     /* background-color: skyblue; */
     height: 550px;
-    width: 60%;
+    width: 50%;
     text-align: center;
 }
 
@@ -191,12 +193,21 @@ input.transparent-input {
     }
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:1100px) {
+    .pimage img {
+        width: 650px;
+    }
+    .pimage {
+        /* position: absolute; */
+        top: -115px;
+    }
+}
+
+@media only screen and (max-width:550px) {
     .pimage img {
         width: 350px;
     }
     .pimage {
-        /* position: absolute; */
         top: -70px;
     }
 }
@@ -206,4 +217,8 @@ input.transparent-input {
         width: 85px;
         font-size: smaller;
     }
+}
+
+#more {
+    display: none;
 }
